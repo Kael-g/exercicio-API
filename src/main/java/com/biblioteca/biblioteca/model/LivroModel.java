@@ -19,7 +19,7 @@ public class LivroModel {
 
     @Id
     @GeneratedValue( strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idLivro;
 
     @Column(length = 50, nullable = false)
     private String nome;
